@@ -68,8 +68,6 @@ int main()
 			//wrong score
 			int wrong = 0;
 
-			
-
 			//used chars
 			string used = "";
 
@@ -140,26 +138,28 @@ int main()
 			if (wrong == MAX_WRONG) {
 				cout << "\nYou've been hanged!";
 			}
+			
 			//If the word is correct
 			else {
 				cout << "\nYou guessed it!";
 			}
-			//Jesus
 			
 			cout << "\nThe word was " << THE_WORD << endl<<endl;
 			
 			//if the wordcoutn is equal to 3
 			if (wordNumber == 3) {
-				//Set answer to blank
-				
 				
 				cout << "Do you want to try again? [Y/N]" << endl<<endl;
+				
 				//char input
 				char input;
+				
 				//get input
 				cin >> input;
+				
 				//change to upper case
 				input = toupper(input);
+				
 				//answer is equal to input	
 				answer = input;
 					
