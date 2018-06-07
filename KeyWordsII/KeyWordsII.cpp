@@ -44,6 +44,7 @@ int main()
 
 	cout << "Hello "<<name<<", the current automated programs that the CIA uses to decode enemy transmissions have always"<<endl<<"worked well until recently. Recently the enemy is using single scrambled low-tech keywords to signal other enemies to start" << endl << "attacks which our current code decryption programs have not been successful against." << endl;
     cout<<"You will be given three words to guess. Try to get them correct. You have amaximum of 8 guesses for each word\n"<<endl;
+
 	// main loop
 	while (answer == "Y") {
 		
